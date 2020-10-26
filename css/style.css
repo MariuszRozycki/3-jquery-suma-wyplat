@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkblue;
+  color: white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.employees {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.person {
+  width: 400px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name,
+.last-name,
+.salary {
+  display: inline-block;
+  font-size: 20px;
+  flex-basis: 33%;
+}
+
+.first-name {
+  margin-right: 50px;
+}
+
+.salary {
+  text-align: right;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  background-color: tomato;
+  border: none;
+  font-size: 18px;
+}
